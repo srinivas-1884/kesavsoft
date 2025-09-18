@@ -1,0 +1,18 @@
+/* Hero Section Styling */
+section.bg-primary {
+  background: linear-gradient(135deg, #007bff, #6610f2);
+}
+
+section.bg-primary .btn {
+  transition: transform 0.3s;
+}
+
+section.bg-primary .btn:hover {
+  transform: scale(1.05);
+}
+
+/* Card Hover Effect */
+.card:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s;
+}
